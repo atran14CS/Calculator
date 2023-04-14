@@ -1,0 +1,33 @@
+/* makes background color of webpage */
+body {
+    background-color: aliceblue;
+}
+
+/* In the container class with these attributes */
+.container {
+    max-width: 400px;
+    margin: 20vh auto 0 auto;
+    display: grid;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+.buttonsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap:10px;
+    padding: 10px;
+}
+
+.buttonsGrid button:hover {
+    outline: 2px solid rgb(7, 125, 209);
+}
+
